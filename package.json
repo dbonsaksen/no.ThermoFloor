@@ -1,0 +1,25 @@
+{
+	"name": "no.ThermoFloor",
+	"version": "0.0.1",
+	"description": "This app adds support for devices made by [ThermoFloor](http://www.thermo-floor.no).",
+	"main": "app.js",
+	"dependencies": {
+		"homey-log": "^1.0.1",
+		"homey-zwavedriver": "git+https://github.com/athombv/node-homey-zwavedriver.git"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"run": "homeyConfig compose && athom project --run",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TedTolboom/no.ThermoFloor.git"
+	},
+	"author": "Ted Tolboom",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TedTolboom/no.ThermoFloor/issues"
+	},
+	"homepage": "https://github.com/TedTolboom/no.ThermoFloor.git#readme"
+}
